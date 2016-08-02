@@ -6,7 +6,8 @@
   "scripts": {
     "browserify": "browserify ./src/entry.js -o ./bundle.js",
     "webpack": "webpack ./src/entry.js bundle.js",
-    "coffee": "coffee --output ./dist ./src/coffee-lib.coffee"
+    "coffee": "coffee --output ./dist ./src/coffee-lib.coffee",
+    "tsc": "tsc --outDir ./dist ./src/ts-lib.ts"
   },
   "keywords": [],
   "author": "",
