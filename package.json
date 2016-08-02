@@ -1,0 +1,17 @@
+{
+  "name": "modules-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "browserify": "browserify ./src/entry.js -o ./bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "jspm": "^0.16.42",
+    "webpack": "^1.13.1"
+  }
+}
